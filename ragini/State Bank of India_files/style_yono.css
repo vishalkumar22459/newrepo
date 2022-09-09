@@ -1,0 +1,77 @@
+@import "main_yono.css";
+.staticpagetable th{
+	background-color:#eee;
+}
+.lower-alpha-type{
+	list-style-type: lower-alpha;
+}
+.lower-roman-type{
+	list-style-type: lower-roman;
+}
+/* new styles - below */
+@media (min-width: 320px) and (max-width: 767px) {
+
+
+.lhn #navbar  .active{
+	background: #1b75bc;
+}
+
+
+#navbar .dropdown .mlinktrig-caret{
+    transition: all 1s linear;
+}
+
+#navbar .dropdown .mlinktrig-caret.down{
+    transform:rotate(90deg);
+}
+}
+
+.scrollbox1 {
+    height: 216px;
+    overflow: auto;
+}
+@media (min-width: 767px) {
+.lhn a{
+	min-height:5px !important;
+}
+#navbar ul li ul {
+	position: absolute;
+}
+#navbar li ul li a {
+	text-align: left !important;
+}
+}
+
+/* Offers Section */
+
+.offer-container { padding: 0px; margin: 0px; right: 0px; bottom: 60px; width: 75px; z-index: 1000;	position: fixed; top: unset; }
+.offer_inner li { list-style-type: none; background: none; color: #ccc; height: 110px; padding: 0px; margin: 0px 0px 1px; transition: all 0.25s ease-in-out;
+    cursor: pointer; }
+.offer_button {  background-image: url("/sbijava/images/offer_button.png"); width: 35px; height: 105px;  float: left; margin: 0px; margin-top: 5px; }
+.offer_inner li:hover {   margin-left: -204px; }
+.offer_slide { margin-left: 35px;  width: 205px;}
+.offer_slide .previous { background:none; color: #b11157 !important; }
+.offer_slide .next { background:none; color: #b11157 !important;  }
+.offer_slide .carousel-inner {  position: relative;  width:100%;  overflow: hidden; background:#ebebeb;	height: 110px; color: #000;
+	-webkit-box-shadow: 4px 6px 8px -3px #737373;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+	-moz-box-shadow:    4px 6px 8px -3px #737373;  /* Firefox 3.5 - 3.6 */
+	box-shadow: 4px 6px 8px -3px #737373;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+	opacity: 10;	 
+}
+.offer_slide .carousel-inner .item { color: #000;	padding: 15px 35px; text-align:left; }
+.offer_slide .carousel-inner .active { color: #000;  padding: 15px 35px; }
+.offer_slide .carousel-inner .item a { text-decoration: underline !important;  float: left;  }
+.offer_inner li p {	padding:0; font-size: 12px; color: #000; }
+.offer_slide .carousel-control .icon-prev { top: 40% !important;  }
+.offer_slide .carousel-control .icon-next { top: 40% !important;  }
+.offer_slide .carousel-indicators { bottom:10px;   }
+.offer_slide .carousel-indicators li { display: inline-block; width: 5px; height: 5px;  margin: 0px; text-indent: -999px; cursor: pointer;  background-color: #daaabf;
+    border:0; border-radius: 5px; }
+.offer_slide .carousel-indicators .active {  width: 5px; height: 5px !important;  margin: 0;  background-color: #b11157; }
+.offer_slide .carousel-control.left { background:none;   }
+.offer_slide .carousel-control.right { background:none;  }
+
+/* Offers Section */
+
+
+
